@@ -1,0 +1,23 @@
+Fri Jun 21 01:14:56 AM IST 2024
+List of S3 buckets: 
+2024-03-27 14:54:11 hosteze
+2024-06-15 16:56:12 remote-storage-terraform-a
+2024-06-15 13:46:32 vaish-remote-storage-terraform
+List of EC2 instances
+"i-0e323481277f60f4b"
+"i-02cba7cf84f85d676"
+"i-03380c9ebec0650d1"
+"i-0126152672a688429"
+List of Lambda functions
+List of IAM Users :
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "iam1",
+            "UserId": "AIDA3KNFPBLCCJBB4WDCY",
+            "Arn": "arn:aws:iam::778272967364:user/iam1",
+            "CreateDate": "2024-06-11T07:13:34+00:00"
+        }
+    ]
+}
