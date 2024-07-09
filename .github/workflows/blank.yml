@@ -1,0 +1,9 @@
+name: Data Passing Workflow
+on: [push]
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Generate Data
+      run: echo "Some data generated in job1" > data.txt
+    
