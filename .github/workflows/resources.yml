@@ -1,0 +1,14 @@
+name: aws-tracker
+on:
+  schedule:
+    -cron: "*/1 * * * *"
+
+jobs:
+  run-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run the script
+        run: echo"This workflow runs per minute"
