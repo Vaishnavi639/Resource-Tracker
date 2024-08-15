@@ -1,7 +1,7 @@
 name: aws-tracker
 on:
   schedule:
-    -cron: "*/1 * * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   run-task:
