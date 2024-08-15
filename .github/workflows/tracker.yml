@@ -1,6 +1,6 @@
 name: aws-tracker
 on:
-    schudule:
+    schedule:
         - cron: "*/1 * * * *"
 
 jobs:
