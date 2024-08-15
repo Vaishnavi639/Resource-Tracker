@@ -1,4 +1,4 @@
-name: aws-tracker@v1
+name: resource-tracker
 on:
     schedule:
         - cron: "*/1 * * * *"
